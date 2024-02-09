@@ -1,0 +1,34 @@
+Return-Path: <devynkorber@u.boisestate.edu>
+Received: from codespaces-9db73c.ung5gqdktmkelct2flwaptvy0b.xx.internal.cloudapp.net ([20.3.178.91])
+        by smtp.gmail.com with ESMTPSA id r8-20020a17090ad40800b002967bc2c852sm383270pju.43.2024.02.08.15.55.22
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 08 Feb 2024 15:55:22 -0800 (PST)
+From: Devynkor <devynkorber@u.boisestate.edu>
+To: devynkorber@u.boisestate.edu
+Cc: Shane Panter <shane@foundationcode.com>
+Subject: [PATCH] Fixed typo in comment
+Date: Thu,
+  8 Feb 2024 23:55:18 +0000
+Message-ID: <20240208235518.5586-1-devynkorber@u.boisestate.edu>
+X-Mailer: git-send-email 2.43.0
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+
+From: Shane Panter <shane@foundationcode.com>
+
+---
+ .github/workflows/close.yml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/.github/workflows/close.yml b/.github/workflows/close.yml
+index d60a15a..f598a11 100644
+--- a/.github/workflows/close.yml
++++ b/.github/workflows/close.yml
+@@ -10,4 +10,4 @@ jobs:
+     steps:
+     - uses: superbrothers/close-pull-request@v3
+       with:
+-        comment: "This homwork does not accept PRs. You are required to send a patch over email. If you have any questions please contact your instructor"
++        comment: "This homework does not accept PRs. You are required to send a patch over email. If you have any questions please contact your instructor"
+-- 
+2.43.0
